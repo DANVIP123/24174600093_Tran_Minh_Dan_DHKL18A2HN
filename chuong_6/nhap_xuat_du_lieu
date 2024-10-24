@@ -1,0 +1,16 @@
+chuoi_ky_tu = input("yeu cau nhap chuoi ky tu:")
+print("in ra man hinh",123, "val", chuoi_ky_tu)
+print(f"in ra man hinh chuoi {chuoi_ky_tu}")
+
+
+bien_so = input("yeu cau nhap vao so tu nhien") #mang kieu ky tu
+gia_tri_nhap = input("yeu cau nhap so tu nhien ") #mang kieu ky tu
+bien_so_nguyen = int(gia_tri_nhap) #ep kieu so nguyen int
+bien_so_thuc = float(gia_tri_nhap) #ep kieu so thuc float
+bien_chuoi_ky_tu = str(gia_tri_nhap) #ep kieu ky tu
+
+bien_bloolean = bool(bien_so_nguyen) #ep kieu boolean
+print(bien_boolean) #khi ep kieu boolean cho kieu ky tu luon tra ve true
+
+bien_so_nguyen = int(input("yeu cau nhau vao so tu nhien"))
+
